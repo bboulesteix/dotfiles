@@ -47,5 +47,17 @@
 [branch "master"]
   mergeoptions = --no-edit
 [user]
-	email = brice.boulesteix@gmail.com
-	name = Brice Boulesteix
+	email = brice.boulesteix@icloud.com
+	name = brice boulesteix
+	signingkey = 14CA7FEAAD4A99F8
+[filter "lfs"]
+	smudge = git-lfs smudge -- %f
+	process = git-lfs filter-process
+	required = true
+	clean = git-lfs clean -- %f
+[commit]
+	gpgsign = false
+[gpg]
+	program = gpg
+[credential]
+	helper = osxkeychain
