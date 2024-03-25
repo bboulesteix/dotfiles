@@ -61,7 +61,7 @@
   defaultBranch = master
 [user]
 	email = brice.boulesteix@gmail.com
-	name = brice boulesteix
+	name = Brice Boulesteix
 [filter "lfs"]
 	required = true
 	clean = git-lfs clean -- %f
