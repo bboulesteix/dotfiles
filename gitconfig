@@ -60,7 +60,7 @@
 [init]
   defaultBranch = master
 [user]
-	email = brice.boulesteix@gmail.com
+	email = brice.boulesteix@pennylane.com
 	name = Brice Boulesteix
 [filter "lfs"]
 	required = true
