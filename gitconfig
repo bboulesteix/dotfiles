@@ -62,8 +62,15 @@
 [user]
 	email = brice.boulesteix@pennylane.com
 	name = Brice Boulesteix
+	signingkey = ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIJrmrV3othdC2EF5Hv87ffTg2bk5UeNhl242mR8pcaYV
 [filter "lfs"]
 	required = true
 	clean = git-lfs clean -- %f
 	smudge = git-lfs smudge -- %f
 	process = git-lfs filter-process
+[gpg]
+	format = ssh
+[gpg "ssh"]
+	program = /Applications/1Password.app/Contents/MacOS/op-ssh-sign
+[commit]
+	gpgsign = true
