@@ -60,7 +60,7 @@
 [init]
   defaultBranch = master
 [user]
-	email = brice.boulesteix@gmail.com
+	email = brice.boulesteix@pennylane.com
 	name = Brice Boulesteix
 	signingkey = ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAILAX7zmo+dqvYKKCZaYDKFNvA0rNYTLTF90nnq58Y/T+
 [filter "lfs"]
