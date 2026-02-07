@@ -60,9 +60,7 @@
 [init]
   defaultBranch = master
 [user]
-	email = brice.boulesteix@pennylane.com
 	name = Brice Boulesteix
-	signingkey = ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAILAX7zmo+dqvYKKCZaYDKFNvA0rNYTLTF90nnq58Y/T+
 [filter "lfs"]
 	required = true
 	clean = git-lfs clean -- %f
@@ -74,3 +72,6 @@
 	gpgsign = true
 [gpg "ssh"]
 	program = /Applications/1Password.app/Contents/MacOS/op-ssh-sign
+
+[include]
+	path = ~/.gitconfig.local
