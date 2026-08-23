@@ -74,4 +74,6 @@ export PYTHONBREAKPOINT=ipdb.set_trace
 # Homebrew caveat
 source /opt/homebrew/opt/chruby/share/chruby/chruby.sh
 source /opt/homebrew/opt/chruby/share/chruby/auto.sh
-chruby ruby-3.4.1
+chruby ruby-4.0.6
+
+# . "/opt/homebrew/opt/asdf/libexec/asdf.sh"
