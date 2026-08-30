@@ -77,3 +77,6 @@ source /opt/homebrew/opt/chruby/share/chruby/auto.sh
 chruby ruby-4.0.6
 
 # . "/opt/homebrew/opt/asdf/libexec/asdf.sh"
+
+# Clean clipboard: convert tabs to spaces, strip newlines, and squeeze extra spaces
+alias cleanclip="pbpaste | tr '\t' ' ' | tr -d '\n' | tr -s ' ' | pbcopy"

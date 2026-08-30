@@ -82,7 +82,7 @@
   "workbench.startupEditor": "newUntitledFile",
   "workbench.panel.defaultLocation": "right",
   "[markdown]": {
-    "editor.fontSize": 16,
+    "editor.fontSize": 14,
     "editor.fontFamily": "iA Writer Duo V, monospace",
     "editor.scrollBeyondLastLine": false,
     // Espacement pour faire "respirer" le texte (iA Writer utilise un interligne généreux)
