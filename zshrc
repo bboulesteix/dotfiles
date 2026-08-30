@@ -61,6 +61,9 @@ export PATH="./bin:./node_modules/.bin:${PATH}:/usr/local/sbin"
 # Store your own aliases in the ~/.aliases file and load the here.
 [[ -f "$HOME/.aliases" ]] && source "$HOME/.aliases"
 
+# Use the 1Password SSH agent (private keys stored in 1Password, not on disk)
+export SSH_AUTH_SOCK="$HOME/Library/Group Containers/2BUA8C4S2C.com.1password/t/agent.sock"
+
 # Encoding stuff for the terminal
 export LANG=en_US.UTF-8
 export LC_ALL=en_US.UTF-8
