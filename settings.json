@@ -2,7 +2,7 @@
   "[python]": {
     "editor.bracketPairColorization.enabled": false,
     "editor.guides.bracketPairs": false,
-    "editor.tabSize": 4,
+    "editor.tabSize": 4
   },
   "editor.bracketPairColorization.enabled": true,
   "editor.detectIndentation": false,
@@ -16,7 +16,7 @@
   "editor.snippetSuggestions": "top",
   "editor.tabSize": 2,
   "emmet.includeLanguages": {
-    "erb": "html",
+    "erb": "html"
   },
   "emmet.showSuggestionsAsSnippets": true,
   "emmet.triggerExpansionOnTab": true,
@@ -39,7 +39,7 @@
     "log": true,
     "node_modules": true,
     "public/packs": true,
-    "tmp": true,
+    "tmp": true
   },
   "files.hotExit": "off",
   "files.insertFinalNewline": true,
@@ -51,14 +51,14 @@
     "**/log/**": true,
     "**/node_modules/**": true,
     "**/tmp/**": true,
-    "**/vendor/**": true,
+    "**/vendor/**": true
   },
   "notebook.diff.ignoreMetadata": true,
   "notebook.lineNumbers": "on",
   "notebook.markup.fontSize": 13,
   "search.exclude": {
     // Inherits all glob patterns from the `files.exclude` setting.
-    "**/.venv": true,
+    "**/.venv": true
   },
   "telemetry.telemetryLevel": "off",
   "window.newWindowDimensions": "maximized",
@@ -91,13 +91,13 @@
     "editor.occurrencesHighlight": "off",
     "editor.selectionHighlight": false,
     "editor.guides.indentation": false,
-    "editor.scrollbar.vertical": "hidden",
+    "editor.scrollbar.vertical": "hidden"
   },
   "[skill]": {
     "editor.fontSize": 14,
     "editor.fontFamily": "iA Writer Duo V, monospace",
     "editor.wordWrap": "wordWrapColumn",
-    "editor.wordWrapColumn": 70,
+    "editor.wordWrapColumn": 70
   },
   "window.newWindowProfile": "Default",
   "editor.fontFamily": "SF Mono, monospace",
@@ -105,23 +105,23 @@
   "editor.stickyScroll.enabled": false,
   "diffEditor.renderSideBySide": true,
   "workbench.editor.autoLockGroups": {
-    "mainThreadWebview-markdown.preview": true,
+    "mainThreadWebview-markdown.preview": true
   },
   "chat.tools.urls.autoApprove": {
     "https://code.visualstudio.com": true,
     "https://github.com/microsoft/vscode/wiki/*": true,
     "https://commission.europa.eu": {
       "approveRequest": false,
-      "approveResponse": true,
+      "approveResponse": true
     },
     "https://www.cnil.fr": {
       "approveRequest": false,
-      "approveResponse": true,
+      "approveResponse": true
     },
     "https://aws.amazon.com": {
       "approveRequest": false,
-      "approveResponse": true,
-    },
+      "approveResponse": true
+    }
   },
   "editor.minimap.enabled": false,
   "claudeCode.preferredLocation": "panel",
@@ -131,5 +131,5 @@
   "extensions.ignoreRecommendations": true,
   "workbench.activityBar.compact": true,
   "workbench.secondarySideBar.showLabels": false,
-  "chat.viewSessions.orientation": "stacked",
+  "chat.viewSessions.orientation": "stacked"
 }
