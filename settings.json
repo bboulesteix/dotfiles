@@ -56,16 +56,6 @@
   "notebook.diff.ignoreMetadata": true,
   "notebook.lineNumbers": "on",
   "notebook.markup.fontSize": 13,
-  "python.defaultInterpreterPath": "~/.pyenv/shims/python",
-  "python.formatting.provider": "yapf",
-  "python.languageServer": "Pylance",
-  "python.linting.enabled": false,
-  "python.linting.flake8Enabled": false,
-  "python.linting.pylintEnabled": false,
-  "python.terminal.activateEnvironment": false,
-  "ruby.lint": {
-    "rubocop": true,
-  },
   "search.exclude": {
     // Inherits all glob patterns from the `files.exclude` setting.
     "**/.venv": true,
@@ -103,6 +93,12 @@
     "editor.guides.indentation": false,
     "editor.scrollbar.vertical": "hidden",
   },
+  "[skill]": {
+    "editor.fontSize": 14,
+    "editor.fontFamily": "iA Writer Duo V, monospace",
+    "editor.wordWrap": "wordWrapColumn",
+    "editor.wordWrapColumn": 70,
+  },
   "window.newWindowProfile": "Default",
   "editor.fontFamily": "SF Mono, monospace",
   "breadcrumbs.enabled": false,
@@ -128,7 +124,6 @@
     },
   },
   "editor.minimap.enabled": false,
-  "chat.viewSessions.orientation": "stacked",
   "claudeCode.preferredLocation": "panel",
   "terminal.integrated.tabs.enabled": false,
   "editor.formatOnSave": true,
@@ -136,4 +131,5 @@
   "extensions.ignoreRecommendations": true,
   "workbench.activityBar.compact": true,
   "workbench.secondarySideBar.showLabels": false,
+  "chat.viewSessions.orientation": "stacked",
 }
